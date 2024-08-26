@@ -43,4 +43,3 @@ frawFood(gameBoard)
 function checkDeath() {
   gameOver = outsideGrid(getSnakeHead()) || snakeIntersection()
 }
-      
